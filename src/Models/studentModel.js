@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const DataSchema = mongoose.Schema({
     studentName:{type: String},
+    Roll:{type: String},
     Num:{type:String, 
     validate:{
     validator:function(value){
